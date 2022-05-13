@@ -1,0 +1,249 @@
+body{
+    margin:0;
+}
+
+p, b, label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-header{
+    display: flex;    
+    background-color: #fd7a00;
+    box-shadow: 0px 5px 5px black;
+    width: 100%;
+    height: 8rem;
+    
+}
+
+.container-header ul li{
+    text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.5);
+    
+}
+
+.container-header ul li:hover{
+    font-size: 110%;
+}
+
+.container-header h1{
+    text-shadow: 3px 1px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.container-header h4{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.container-header ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.left-side{
+    margin: auto;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: inherit; 
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    align-items: left;
+    justify-content: left;
+}
+
+.left-side h1{
+    font-size: 1.5rem;
+}
+
+.left-side h4{
+    padding: 1rem;
+}
+
+.right-side ul{        
+    list-style-type: none;
+    line-height: 3rem;
+    padding: 1rem;
+}
+
+.right-side ul li{
+    display: inline; 
+    margin-left: 0.2rem;  
+    width: 100%;
+}
+.right-side ul li img:hover{
+    width: 22px;   
+    height: 22px;
+}
+
+
+.right-side{
+    color: #FFF;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 50%;
+    height: inherit;
+}
+
+.right-side img{
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    height: 2rem;
+}
+
+
+.content{    
+    margin: auto;
+    margin-top: 2rem; 
+    padding: 1rem;
+    width: 80%;
+    height: 35rem;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
+    text-align: center;
+}
+.content h2{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;       
+    margin:auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 80%;
+    height: auto;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #333;
+    padding: 1rem;
+    width: 15rem;
+    height: auto;
+    transition: 0.5s;
+}
+
+
+.card h2{
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.486);
+    text-align: center;
+}
+
+.card img{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    width: 100%;
+    height: auto;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card button{
+    align-items: center;
+    width: 8rem;
+    background-color: #fd7a00;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+   
+.card button:hover{
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+.sobre{    
+    margin: auto;
+    margin-top: 2rem; 
+    padding: 1rem;
+    width: 80%;
+    height: 28rem;
+    overflow-x: hidden;
+}
+
+.sobre h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.507);
+    text-align: left;
+}
+
+.sobre p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.sobre img{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.507);
+    float:left;
+    border-radius: 50%;
+}
+.news{    
+    margin: auto;
+    border: 1px solid #333;
+    width: 80%;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-inline: 2rem;
+}
+
+.news h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.486);
+    text-align: left;
+    padding: 1rem;
+}
+
+.news p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.news form{
+    text-align: center;
+}
+
+.news form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+  }
+
+  .news form input[type=button], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+  }
